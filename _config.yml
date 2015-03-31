@@ -9,4 +9,4 @@ github_username:  #jekyll
 
 # Build settings
 markdown: redcarpet
-highlighter: rouge
+#highlighter: rouge
