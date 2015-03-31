@@ -180,3 +180,15 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.btn-default {
+    background-color: #337ab7;
+    color: #fff;
+    border-color: #23527c;
+}
+
+.btn-default:hover {
+    background-color: #23527c;
+    border-color: #23527c;
+    color: #fff;
+}
