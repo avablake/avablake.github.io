@@ -1,0 +1,12 @@
+# Site settings
+title: Author Cora Wolf
+email: authorcora@gmail.com
+description: Homepage of Paranormal Romance writer Cora Wolf
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.corawolf.com" # the base hostname & protocol for your site
+twitter_username: #jekyllrb
+github_username:  #jekyll
+
+# Build settings
+markdown: redcarpet
+highlighter: rouge
