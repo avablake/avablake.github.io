@@ -1,0 +1,211 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+.my-face {
+  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
+  vertical-align: top;
+  background-image: url(/images/glasses.jpg);
+  height: 250px;
+  border-radius: 20px;
+}
+
+.about-me {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.content-border {
+  border-bottom: 4px double #e8e4e3;
+  margin: 20px 50px;
+}
+
+.book-col {
+  height: 280px;
+}
+
+.book-col a img {
+  height: 250px;
+  text-align: center;
+}
+
+.sub-header {
+  font-size: 50px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.newsletter-prompt {
+  font-size: 12px;
+}
+
+.social-icon {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.social-icon img {
+  height: 120px;
+  width: 120px;
+  border: 2px solid #428bca;
+  border-radius: 15px;
+}
+
+.icon-m-r {
+  margin-right: 10px;
+}
+
+.social-icon img:hover {
+  border-color: #3276b1;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.header-font {
+  font-family: 'Parisienne', cursive;
+}
+
+.title {
+  font-size: 96px;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+.left {
+  text-align: left;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+/*****************************************************************************/
+/*
+/* Campaign Monitor
+/*
+/*****************************************************************************/
+
+
+.newsletter-input {
+  width: 100%;
+  border-radius: 5px;
+  max-width: 300px;
+  border: 1px solid #aaa;
+  padding: 8px 0;
+  text-indent: 5px;
+  display: block;
+}
+
+.newsletter-subscribe {
+  background-color: #428bca;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.newsletter-subscribe:hover {
+  background-color: #3276b1;
+}

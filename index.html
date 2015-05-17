@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -197,3 +198,98 @@
 </body>
 
 </html>
+=======
+---
+layout: default
+title: Home of Author Ava Blake
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="content-border"></div>
+  </div>
+</div>
+
+<div class="row">
+	<div class="col-md-6 my-face">
+		
+	</div>
+
+  <div class="col-md-6">
+    <p class="about-me left">I'm Ava Blake, author of romance fiction. I really fell in love with this genre when I was sick, laid up in the hospital. Reading romance books on my Kindle was a great distraction that got me through some hard times, and in the interest of paying it forward I sincerely hope that my writing can be of some benefit and enjoyment to you, dear reader. So grab a book, sign up for the newsletter and please let me know what you think!</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="content-border"></div>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-md-3">
+    <h2 class="header-font sub-header">Newsletter</h2>
+
+    <p class="left newsletter-prompt">Get a convenient email telling you when my latest masterpiece has been released, plus a <b>free story</b> you wont find anywhere else, just for signing up!</p>
+
+    <form action="http://avablake.createsend.com/t/d/s/aiujk/" method="post">
+
+        <p>
+            <input id="fieldName" class="newsletter-input" name="cm-name" type="text" placeholder="Name" />
+        </p>
+        <p>
+            <input id="fieldEmail" class="newsletter-input" name="cm-aiujk-aiujk" type="email" placeholder="Email Address" required />
+        </p>
+        <p>
+            <button class="newsletter-subscribe" type="submit">Subscribe</button>
+        </p>
+    </form>
+
+    <h2 class="header-font sub-header">Connect</h2>
+
+    <a href="http://www.amazon.com/Ava-Blake/e/B00K140QOU" class="social-icon icon-m-r"><img src="/images/amazon.png"></a>
+    <a href="https://www.facebook.com/pages/Ava-Blake/645391465497479" class="social-icon"><img src="/images/facebook.png"></a>
+    <a href="http://www.goodreads.com/avablake" class="social-icon icon-m-r"><img src="/images/goodreads.png"></a>
+    <a href="mailto:writerava@gmail.com" class="social-icon"><img src="/images/email.png"></a>
+
+  </div>
+
+  <div class="col-md-9">
+    <h2 class="header-font sub-header">My Books</h2>
+    <div class="row">
+
+      {% if site.data.books.size == 0 %}
+
+      <p class="no-books">Oops, nothing here yet, but check back very soon!</p>
+
+      {% else %}
+
+        {% for book in site.data.books %}
+
+          <div class="col-md-3 book-col">
+            <a href="http://www.amazon.com/dp/{{ book.ASIN }}/?tag=avablake-20" target="_blank">
+              <img src="http://ecx.images-amazon.com/images/P/{{ book.ASIN }}.jpg">
+            </a>
+          </div>
+
+        {% endfor %}
+
+      {% endif %}
+
+    </div>
+  </div>
+
+</div>
+
+<!--
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+-->
+>>>>>>> origin/master

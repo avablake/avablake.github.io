@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Contemporary Romance Author Ava Blake
 email: authorcora@gmail.com
@@ -10,3 +11,9 @@ github_username:  #jekyll
 # Build settings
 markdown: redcarpet
 #highlighter: rouge
+=======
+name: Ava Blake
+markdown: redcarpet
+pygments: true
+encoding: UTF-8
+>>>>>>> origin/master
