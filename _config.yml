@@ -1,9 +1,9 @@
 # Site settings
-title: Author Cora Wolf
+title: Contemporary Romance Author Ava Blake
 email: authorcora@gmail.com
-description: Homepage of Paranormal Romance writer Cora Wolf
+description: Homepage of Contemporary Romance writer Ava Blake
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.corawolf.com" # the base hostname & protocol for your site
+url: "http://www.avablake.com" # the base hostname & protocol for your site
 twitter_username: #jekyllrb
 github_username:  #jekyll
 
